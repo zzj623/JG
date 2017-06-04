@@ -1,8 +1,17 @@
 ﻿<Window x:Class="JGBDX.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Title="金光布袋戏" Height="350" Width="525">
     <Grid>
-        
+        <Border BorderBrush="Blue"
+                BorderThickness="1">
+            <TextBlock Text="登陆"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Foreground="Black"
+                       FontSize="34"/>
+        </Border>
     </Grid>
 </Window>
